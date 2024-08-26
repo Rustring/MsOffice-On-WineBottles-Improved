@@ -34,7 +34,7 @@ rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 ```
 
 If you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
-.
+
 2. Create a new bottle using Bottles named `office2010`  
 3. Environment `Custom`.  
 4. From Custom `Runner: pol-8.2`. Architecture: `32-bit`.  
