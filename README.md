@@ -1,10 +1,14 @@
-## Note:
+## Desctiption
 
-I made this guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
+This guide should help you run Microsft Office all the way from 2010 to 2016 on bottles using WINE, 2019 and onwards are unfortunately not possible, or are very hard to install.
+
+### Note:
+
+This is not strictly made by me, I made the original guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
 
 ### Microsoft Office 2010
 
-Use Microsoft Office 2010 in Linux using WINE and Bottles.  
+Screenshot of Office 2010 (Not taken by me):
 
 ![Screenshot_20240701_123107](https://github.com/tazihad/msoffice-bottle/assets/19417232/6e51ebef-4e25-4a78-af1e-725c197fc8c2)  
 
@@ -65,6 +69,10 @@ curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubu
 
 
 ### Microsoft Office 2013, 2016
+
+Screenshot of Office 2013 (This is taken by me):
+
+![Screenshot_20240826_170550](https://github.com/user-attachments/assets/96dfb38f-52f3-4531-8846-34a4d06ee509)
 
 Wine runner pol-4.3:
 ```
