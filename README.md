@@ -83,4 +83,7 @@ tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --stri
 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && \
 rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
 ```
-The rest of the steps are the same as Office 2010, if you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
+
+The rest of the steps are the same as Office 2010, just use `office2013.yml` or `office2016.yml` as the bottle configurations.
+
+If you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
