@@ -1,4 +1,9 @@
-### MS Office 2010
+## Note:
+
+I made this guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
+
+### Microsoft Office 2010
+
 Use Microsoft Office 2010 in Linux using WINE and Bottles.  
 
 ![Screenshot_20240701_123107](https://github.com/tazihad/msoffice-bottle/assets/19417232/6e51ebef-4e25-4a78-af1e-725c197fc8c2)  
@@ -28,6 +33,8 @@ tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-8.2 --stri
 rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 ```
 
+If you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
+.
 2. Create a new bottle using Bottles named `office2010`  
 3. Environment `Custom`.  
 4. From Custom `Runner: pol-8.2`. Architecture: `32-bit`.  
@@ -38,6 +45,8 @@ rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 
 > Unfortunately for some bug, DLL override doesn't get imported from yml. So, we do this manually.
 7. From bottle `office2010` -> `Setting` -> `DLL Overrides` -> add `gdiplus` & `riched20`.
+
+If it doesn't work, add `WINEDLLOVERRIDES="gdiplus=n,b;riched20=n,b" %command%` to the launch options of the setup and applications.
 
 ![Screenshot_20240701_114718](https://github.com/tazihad/msoffice-bottle/assets/19417232/ef064bed-62aa-4349-9424-7188cb4f6cb0)  
 
@@ -55,7 +64,7 @@ curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubu
 ```
 
 
-### Office 2013, 2016
+### Microsoft Office 2013, 2016
 
 Wine runner pol-4.3:
 ```
@@ -66,3 +75,4 @@ tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --stri
 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && \
 rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
 ```
+The rest of the steps are the same as Office 2010, if you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
