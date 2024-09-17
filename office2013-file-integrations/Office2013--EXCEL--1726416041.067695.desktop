@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Microsoft Excel 2013
+Exec=flatpak run --command=bottles-cli com.usebottles.bottles run -p EXCEL -b 'Office2013' -- %u
+Type=Application
+Terminal=false
+Categories=Application;Office;
+Icon=/home/yourusername/.var/app/com.usebottles.bottles/data/bottles/bottles/Office2013/icons/EXCEL.png
+Comment=Spreadsheet Program
+StartupWMClass=EXCEL
+Actions=Configure;
+[Desktop Action Configure]
+Name=Configure in Bottles
+Exec=flatpak run com.usebottles.bottles -b 'Office2013'

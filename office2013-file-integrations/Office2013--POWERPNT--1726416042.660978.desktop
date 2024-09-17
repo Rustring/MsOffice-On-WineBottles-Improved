@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Microsoft PowerPoint 2013
+Exec=flatpak run --command=bottles-cli com.usebottles.bottles run -p POWERPNT -b 'Office2013' -- %u
+Type=Application
+Terminal=false
+Categories=Application;Office;
+Icon=/home/yourusername/.var/app/com.usebottles.bottles/data/bottles/bottles/Office2013/icons/POWERPNT.png
+Comment=Make Presentations
+StartupWMClass=POWERPNT
+Actions=Configure;
+[Desktop Action Configure]
+Name=Configure in Bottles
+Exec=flatpak run com.usebottles.bottles -b 'Office2013'
