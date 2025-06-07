@@ -1,0 +1,20 @@
+[Desktop Entry]
+Actions=Configure;
+Categories=Application;Office;Wine;
+Comment=Launch EXCEL using Bottles.
+Exec=flatpak run --command=bottles-cli com.usebottles.bottles run -p EXCEL -b 'BOTTLE NAME' -- %u
+Icon=/home/rustring/.var/app/com.usebottles.bottles/data/bottles/bottles/BOTTLE-NAME/icons/EXCEL.png
+Name=Microsoft Excel 2007
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=EXCEL
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action Configure]
+Exec=flatpak run com.usebottles.bottles -b 'Office 2207'
+Name=Configure in Bottles

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Actions=Configure;
+Categories=Application;
+Comment=Launch WINWORD using Bottles.
+Exec=bash -c "flatpak run --command=bottles-cli com.usebottles.bottles run -p 'WINWORD' -b 'BOTTLE NAME' -- $(echo \\'z:\\"%f\\"\\' | sed 's!/!\\\\\\\\\\\\\\\\!g')"
+Icon=/home/rustring/.var/app/com.usebottles.bottles/data/bottles/bottles/BOTTLE-NAME/icons/WINWORD.png
+Name=Word 2007 Document
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=WINWORD
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+[Desktop Action Configure]
+Exec=flatpak run com.usebottles.bottles -b 'Office 2207'
+Name=Configure in Bottles
