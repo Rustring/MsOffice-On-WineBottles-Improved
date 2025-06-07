@@ -8,9 +8,9 @@ This is not strictly made by me, I made the original guide a little better, the 
 
 ## Microsoft Office 2007, 2010
 
-Screenshot of Office 2010 (Not taken by me):
+Screenshot of Office 2007 (Taken by me):
 
-![Screenshot_20240701_123107](https://github.com/tazihad/msoffice-bottle/assets/19417232/6e51ebef-4e25-4a78-af1e-725c197fc8c2)  
+![Screenshot_20240701_123107](https://github.com/user-attachments/assets/62fc6142-5ed4-4ab1-9fa5-5194691d6ec6)  
 
 #### Video Tutorial:  
 
@@ -58,7 +58,7 @@ If it doesn't work, add `WINEDLLOVERRIDES="gdiplus=n,b;riched20=n,b" %command%` 
 
 ## Microsoft Office 2013, 2016
 
-Screenshot of Office 2013 (This is taken by me):
+Screenshot of Office 2013 (Taken by me):
 
 ![Screenshot_20240826_170550](https://github.com/user-attachments/assets/96dfb38f-52f3-4531-8846-34a4d06ee509)
 
