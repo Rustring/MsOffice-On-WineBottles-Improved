@@ -11,7 +11,7 @@ This guide should help you run Microsft Office all the way from 2007 to 2016 on 
 
 Screenshot of Office 2007 (Taken by me):
 
-![Screenshot_20240701_123107](https://github.com/user-attachments/assets/62fc6142-5ed4-4ab1-9fa5-5194691d6ec6)  
+![Screenshot_20240701_123107](https://github.com/user-attachments/assets/d659516e-73e3-4e9c-96dc-ae448c32429e)
 
 #### Video Tutorial:  
 
