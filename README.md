@@ -1,10 +1,11 @@
 ## Desctiption
 
-This guide should help you run Microsft Office all the way from 2010 to 2016 on bottles using WINE, 2019 and onwards are unfortunately not possible, or are very hard to install.
+This guide should help you run Microsft Office all the way from 2007 to 2016 on bottles using WINE, 2019 and onwards are unfortunately not possible, or are very hard to install.
 
 ### Note:
 
-This is not strictly made by me, I made the original guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
+1. This is not strictly made by me, I made the original guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
+2. It is more reccomended to use the ISO as it just works, and generally there can be issues with the online installer.
 
 ## Microsoft Office 2007, 2010
 
@@ -39,7 +40,7 @@ rm /tmp/PlayOnLinux-wine-8.2-upstream-linux-x86.tar.gz
 
 If you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
 
-2. Create a new bottle using Bottles named `office2010`  
+2. Create a new bottle using Bottles and name it whatever (it's reccomened there's no spaces for ease in later steps)  
 3. Environment `Custom`.  
 4. From Custom `Runner: pol-8.2`. Architecture: `32-bit`.  
 5. Configaration: Select `office2010.yml`.  
@@ -48,7 +49,8 @@ If you cant download from here, or is too slow, download from the release [here]
 ![Screenshot_20240701_113937](https://github.com/tazihad/msoffice-bottle/assets/19417232/916c186a-08c8-4b81-8504-21ae0bab7dd3)  
 
 > Unfortunately for some bug, DLL override doesn't get imported from yml. So, we do this manually.
-7. From bottle `office2010` -> `Setting` -> `DLL Overrides` -> add `gdiplus` & `riched20`.
+
+7. From the bottle you created go to -> `Setting` -> `DLL Overrides` -> add `gdiplus` & `riched20`.
 
 If it doesn't work, add `WINEDLLOVERRIDES="gdiplus=n,b;riched20=n,b" %command%` to the launch options of the setup and applications.
 
