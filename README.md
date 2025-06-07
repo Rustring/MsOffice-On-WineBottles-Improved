@@ -6,7 +6,7 @@ This guide should help you run Microsft Office all the way from 2010 to 2016 on 
 
 This is not strictly made by me, I made the original guide a little better, the original one is [here](https://github.com/tazihad/msoffice-bottle).
 
-### Microsoft Office 2010
+## Microsoft Office 2007, 2010
 
 Screenshot of Office 2010 (Not taken by me):
 
@@ -56,19 +56,7 @@ If it doesn't work, add `WINEDLLOVERRIDES="gdiplus=n,b;riched20=n,b" %command%` 
 
 8. That's it. Now install 32-bit version of *MS Office 2010*. Find the executable and run with Bottles.  
 
-### File Integrations  
-Copy files `word.desktop`, `powerpoint.desktop`, `excel.desktop` files from [office2010-file-integrations](https://github.com/tazihad/msoffice-bottle/tree/main/office2010-file-integrations)  
- to `~/.local/share/applications` Change `Icon` path by changing to your username.  
-Or do run this command:  
-```
-mkdir -p ~/.local/share/applications && \
-curl -o ~/.local/share/applications/Office-Excel-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Excel-2010.desktop && \
-curl -o ~/.local/share/applications/Office-Powerpoint-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Powerpoint-2010.desktop && \
-curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Word-2010.desktop
-```
-
-
-### Microsoft Office 2013, 2016
+## Microsoft Office 2013, 2016
 
 Screenshot of Office 2013 (This is taken by me):
 
@@ -87,3 +75,10 @@ rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
 The rest of the steps are the same as Office 2010, just use `office2013.yml` or `office2016.yml` as the bottle configurations.
 
 If you cant download from here, or is too slow, download from the release [here](https://github.com/Rustring/msoffice-bottle-improved/releases/tag/sample-tag).
+
+## File Integrations  
+
+Copy all `.desktop` files from [File-Intergrations](https://github.com/Rustring/MsOffice-On-WineBottles-Improved/tree/main/File-Intergrations) and [Applicationn-File](https://github.com/Rustring/MsOffice-On-WineBottles-Improved/tree/main/Applicationn-File) to `~/.local/share/applications` 
+
+Change `Icon` path by changing to your username and bottle path name.  
+Change the bottle name (can include spaces) in `Exec`.
